@@ -5,7 +5,6 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 const path = require('path');
 const { Server } = require('socket.io');
-const rateLimit = require('express-rate-limit');
 const jwt = require('jsonwebtoken');
 const userRoutes = require('./routes/userRoutes');
 const chatbotRoutes = require('./routes/chatBotRoute');
